@@ -1,0 +1,22 @@
+.card-text::before{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background-image: url(../../img/like.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: '';
+}
+@media (max-width: 600px) { 
+    .d-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .h5{
+        font-size: 0.7rem;
+    }
+ }
+
+
